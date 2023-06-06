@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_app"
+        android:label="Brain Hack"
+        android:roundIcon="@drawable/icon_app"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Maths"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuestionSelect"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LastActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuestionsScience"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Science"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LastActivity1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuestionsGK"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GK"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LastActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAccount"
+            android:screenOrientation="portrait"/>
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
